@@ -389,7 +389,9 @@ body {
     .about {
         padding-top: 40px;
     }
-
+    .profession {
+        margin-top: 20px;
+    }
     .work-list {
         padding: 15px;
     }
