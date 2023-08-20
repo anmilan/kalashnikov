@@ -333,7 +333,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 479px) {
     .main {
         display: flex;
         flex-direction: column-reverse;
@@ -349,55 +349,7 @@ body {
         display: flex;
         flex-direction: column;
         width: auto;
-        /* align-items: center; */
     }
-
-    /* .sidebar {
-        background-color: #092a5c;
-        display: grid;
-        grid-template-areas:
-            "photo tech"
-            "photo soft"
-            "contacts contacts"
-        ;
-        padding: 0px;
-        position: relative;
-    }
-
-    .photo {
-        grid-area: photo;
-        margin-bottom: 0px;
-    }
-
-    .photo-container {
-        margin: 0px;
-    }
-
-    .contacts {
-        grid-area: contacts;
-        background-color: #092a5c;
-        margin: 0px;
-        padding: 10px;
-        width: 131.5%;
-    }
-
-    .soft-skills {
-        grid-area: soft;
-        background-color: #092a5c;
-        width: 200%;
-        padding: 10px;
-        margin: 0px;
-        position: absolute;
-        top: -300px;
-    }
-
-    .tech-skills {
-        grid-area: tech;
-        background-color: #092a5c;
-        width: 200%;
-        padding: 10px;
-        margin: 0px;
-    } */
 
     .photo-container {
         width: 100%;
