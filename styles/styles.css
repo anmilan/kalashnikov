@@ -366,7 +366,6 @@ body {
     .about-description,
     .work-position,
     .organization,
-    .period,
     .line,
     .work-list-item,
     .education-place,
@@ -394,7 +393,11 @@ body {
     .work-list {
         padding: 15px;
     }
-
+    .period {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
     .about-description {
         width: 100%;
     }
